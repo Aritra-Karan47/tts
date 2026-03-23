@@ -1,0 +1,8 @@
+pyttsx3
+gTTS                '''7.447 seconds'''
+mycroft-mimic3-tts
+RealtimeTTS
+piper-tts
+styletts2
+TTS 
+coqui-tts
