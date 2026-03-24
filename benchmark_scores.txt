@@ -1,0 +1,4 @@
+gTTS         7.400 seconds    
+edge-tts     5.245 seconds
+pyttsx3      0.664 seconds
+Kokoro       12.7947 seconds  (chod bhangra very much)
