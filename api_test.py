@@ -68,16 +68,7 @@ if provider not in valid_providers:
 print(f"\n Testing: {provider.capitalize()}")
 start_time = time.perf_counter()
 
-# ====================== CREATE .env FILE ======================
-env_content = """# TTS API Keys - Add your keys here
-ELEVENLABS_API_KEY=your_elevenlabs_key_here
-NOIZ_API_KEY=your_noiz_key_here
-CARTESIA_API_KEY=your_cartesia_key_here
-DEEPGRAM_API_KEY=your_deepgram_key_here
-MURF_API_KEY=your_murf_key_here
-RESPEECHER_API_KEY=your_respeecher_key_here
-RESEMBLE_API_KEY=your_resemble_key_here
-"""
+
 
 if not os.path.exists(".env"):
     with open(".env", "w") as f:
