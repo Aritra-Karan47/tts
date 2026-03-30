@@ -49,8 +49,8 @@ def calculate_tts_accuracy(audio_path, reference_text, model_name):
 if __name__ == "__main__":
     # USER INPUTS
     # Replace these with your actual file path and text
-    target_audio = "edge_tts.mp3" 
-    target_model = "Edge-TTS"
+    target_audio = "speech_output.wav" 
+    target_model = "Respeecher"
     original_text = "OpenClaw is a groundbreaking open-source AI agent that executes tasks autonomously, retains memory across sessions, and connects to tools you already use, all processed locally on your own hardware. Unlike standard AI assistants that respond when prompted, OpenClaw takes actions on your behalf, maintaining memory across sessions, and connecting to the tools and services you already use. The setup is not trivial, and the maintainer has stated that if you can't understand how to run a command line, this is far too dangerous"
 
     calculate_tts_accuracy(target_audio, original_text, target_model)

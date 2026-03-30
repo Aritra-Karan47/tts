@@ -37,7 +37,7 @@ async def test_edgetts(text):
     start = time.perf_counter()
     filename = "edge_tts.mp3"
     # Using a high-quality neural voice
-    communicate = edge_tts.Communicate(text, "en-US-AndrewNeural")
+    communicate = edge_tts.Communicate(text, "en-GB-SoniaNeural")
     await communicate.save(filename)
     duration = time.perf_counter() - start
     return "Edge-TTS", duration, filename
