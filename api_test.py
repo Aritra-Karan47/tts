@@ -207,8 +207,8 @@ elif provider == "resemble":
     from resemble import Resemble
     Resemble.api_key(api_key)
     response = Resemble.v2.clips.create_sync(
-        project_uuid=" ca40273c",   # ← Change to your project UUID
-        voice_uuid="74d27bc3",       # ← Change to your voice UUID
+        project_uuid=" ",   # ← Change to your project UUID
+        voice_uuid="",       # ← Change to your voice UUID
         body=text,
         title="Colab Test"
     )
