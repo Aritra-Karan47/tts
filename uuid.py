@@ -1,6 +1,6 @@
 from resemble import Resemble
 
-Resemble.api_key("3ZwpWy45B9oFreEFdZOCAQtt")
+Resemble.api_key("your api key here")
 
 projects = Resemble.v2.projects.all(1, 10)
 for p in projects['items']:
@@ -8,7 +8,7 @@ for p in projects['items']:
 
 from resemble import Resemble
 
-Resemble.api_key("3ZwpWy45B9oFreEFdZOCAQtt")
+Resemble.api_key("your api key here")
 
 voices = Resemble.v2.voices.all(1, 10)
 for v in voices['items']:
